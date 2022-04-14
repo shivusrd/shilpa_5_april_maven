@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 123.404 sec <<< FAILURE! - in TestSuite
+launchtestingbaba(testingbaba.Testingbaba_radio_test)  Time elapsed: 10.319 sec  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at testingbaba.Testingbaba_radio_test.launchtestingbaba(Testingbaba_radio_test.java:21)
+
