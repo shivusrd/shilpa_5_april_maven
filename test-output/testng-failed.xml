@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testingbaba]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="login page(failed)">
+    <classes>
+      <class name="testingbaba_test.Login_test">
+        <methods>
+          <include name="getlaunchurl"/>
+          <include name="teardown"/>
+          <include name="gettitle"/>
+        </methods>
+      </class> <!-- testingbaba_test.Login_test -->
+    </classes>
+  </test> <!-- login page(failed) -->
+  <test thread-count="5" name="Textbox page(failed)">
+    <classes>
+      <class name="testingbaba_test.Textbox_test">
+        <methods>
+          <include name="textbox_test2"/>
+          <include name="getlaunchurl"/>
+          <include name="textbox_test"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testingbaba_test.Textbox_test -->
+    </classes>
+  </test> <!-- Textbox page(failed) -->
+  <test thread-count="5" name="Checkbox page(failed)">
+    <classes>
+      <class name="testingbaba_test.Checkbox_test">
+        <methods>
+          <include name="checkbox_test"/>
+          <include name="checkbox_test2"/>
+          <include name="teardown"/>
+          <include name="getlaunchurl"/>
+        </methods>
+      </class> <!-- testingbaba_test.Checkbox_test -->
+    </classes>
+  </test> <!-- Checkbox page(failed) -->
+  <test thread-count="5" name="Radiobutton page(failed)">
+    <classes>
+      <class name="testingbaba_test.Radiobutton_test">
+        <methods>
+          <include name="radiobutton"/>
+          <include name="getlaunch"/>
+          <include name="radiobutton1"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testingbaba_test.Radiobutton_test -->
+    </classes>
+  </test> <!-- Radiobutton page(failed) -->
+  <test thread-count="5" name="Webtables page(failed)">
+    <classes>
+      <class name="testingbaba_test.Webtables_test">
+        <methods>
+          <include name="getlaunch"/>
+          <include name="teardown"/>
+          <include name="webtables"/>
+          <include name="webtables1"/>
+        </methods>
+      </class> <!-- testingbaba_test.Webtables_test -->
+    </classes>
+  </test> <!-- Webtables page(failed) -->
+</suite> <!-- Failed suite [testingbaba] -->

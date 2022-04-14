@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-12T20:49:27 IST" name="testingbaba" finished-at="2022-04-12T20:50:20 IST" duration-ms="52171">
+    <groups>
+    </groups>
+    <test started-at="2022-04-12T20:49:27 IST" name="login page" finished-at="2022-04-12T20:49:38 IST" duration-ms="10633">
+      <class name="testingbaba_test.Login_test">
+        <test-method is-config="true" signature="getlaunchurl()[pri:0, instance:testingbaba_test.Login_test@36bc55de]" started-at="2022-04-12T20:49:27 IST" name="getlaunchurl" finished-at="2022-04-12T20:49:38 IST" duration-ms="10222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunchurl -->
+        <test-method signature="gettitle()[pri:0, instance:testingbaba_test.Login_test@36bc55de]" started-at="2022-04-12T20:49:38 IST" name="gettitle" finished-at="2022-04-12T20:49:38 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testingbaba_test.Login_test@36bc55de]" started-at="2022-04-12T20:49:38 IST" name="teardown" finished-at="2022-04-12T20:49:38 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testingbaba_test.Login_test -->
+    </test> <!-- login page -->
+    <test started-at="2022-04-12T20:49:38 IST" name="Textbox page" finished-at="2022-04-12T20:49:48 IST" duration-ms="9808">
+      <class name="testingbaba_test.Textbox_test">
+        <test-method is-config="true" signature="getlaunchurl()[pri:0, instance:testingbaba_test.Textbox_test@4c583ecf]" started-at="2022-04-12T20:49:38 IST" name="getlaunchurl" finished-at="2022-04-12T20:49:44 IST" duration-ms="5585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunchurl -->
+        <test-method signature="textbox_test()[pri:0, instance:testingbaba_test.Textbox_test@4c583ecf]" started-at="2022-04-12T20:49:44 IST" name="textbox_test" finished-at="2022-04-12T20:49:44 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textbox_test -->
+        <test-method signature="textbox_test2()[pri:0, instance:testingbaba_test.Textbox_test@4c583ecf]" started-at="2022-04-12T20:49:44 IST" name="textbox_test2" finished-at="2022-04-12T20:49:48 IST" duration-ms="3808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textbox_test2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testingbaba_test.Textbox_test@4c583ecf]" started-at="2022-04-12T20:49:48 IST" name="teardown" finished-at="2022-04-12T20:49:48 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testingbaba_test.Textbox_test -->
+    </test> <!-- Textbox page -->
+    <test started-at="2022-04-12T20:49:48 IST" name="Checkbox page" finished-at="2022-04-12T20:49:57 IST" duration-ms="9396">
+      <class name="testingbaba_test.Checkbox_test">
+        <test-method is-config="true" signature="getlaunchurl()[pri:0, instance:testingbaba_test.Checkbox_test@77888435]" started-at="2022-04-12T20:49:48 IST" name="getlaunchurl" finished-at="2022-04-12T20:49:56 IST" duration-ms="8481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunchurl -->
+        <test-method signature="checkbox_test()[pri:0, instance:testingbaba_test.Checkbox_test@77888435]" started-at="2022-04-12T20:49:56 IST" name="checkbox_test" finished-at="2022-04-12T20:49:57 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox_test -->
+        <test-method signature="checkbox_test2()[pri:0, instance:testingbaba_test.Checkbox_test@77888435]" started-at="2022-04-12T20:49:57 IST" name="checkbox_test2" finished-at="2022-04-12T20:49:57 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox_test2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testingbaba_test.Checkbox_test@77888435]" started-at="2022-04-12T20:49:57 IST" name="teardown" finished-at="2022-04-12T20:49:57 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testingbaba_test.Checkbox_test -->
+    </test> <!-- Checkbox page -->
+    <test started-at="2022-04-12T20:49:57 IST" name="Radiobutton page" finished-at="2022-04-12T20:50:08 IST" duration-ms="10269">
+      <class name="testingbaba_test.Radiobutton_test">
+        <test-method is-config="true" signature="getlaunch()[pri:0, instance:testingbaba_test.Radiobutton_test@1bb5a082]" started-at="2022-04-12T20:49:57 IST" name="getlaunch" finished-at="2022-04-12T20:50:07 IST" duration-ms="9505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunch -->
+        <test-method signature="radiobutton()[pri:0, instance:testingbaba_test.Radiobutton_test@1bb5a082]" started-at="2022-04-12T20:50:07 IST" name="radiobutton" finished-at="2022-04-12T20:50:07 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiobutton -->
+        <test-method signature="radiobutton1()[pri:1, instance:testingbaba_test.Radiobutton_test@1bb5a082]" started-at="2022-04-12T20:50:07 IST" name="radiobutton1" finished-at="2022-04-12T20:50:07 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiobutton1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testingbaba_test.Radiobutton_test@1bb5a082]" started-at="2022-04-12T20:50:07 IST" name="teardown" finished-at="2022-04-12T20:50:08 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testingbaba_test.Radiobutton_test -->
+    </test> <!-- Radiobutton page -->
+    <test started-at="2022-04-12T20:50:08 IST" name="Webtables page" finished-at="2022-04-12T20:50:20 IST" duration-ms="11964">
+      <class name="testingbaba_test.Webtables_test">
+        <test-method is-config="true" signature="getlaunch()[pri:0, instance:testingbaba_test.Webtables_test@618b19ad]" started-at="2022-04-12T20:50:08 IST" name="getlaunch" finished-at="2022-04-12T20:50:16 IST" duration-ms="8714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunch -->
+        <test-method signature="webtables()[pri:0, instance:testingbaba_test.Webtables_test@618b19ad]" started-at="2022-04-12T20:50:16 IST" name="webtables" finished-at="2022-04-12T20:50:17 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webtables -->
+        <test-method signature="webtables1()[pri:0, instance:testingbaba_test.Webtables_test@618b19ad]" started-at="2022-04-12T20:50:17 IST" name="webtables1" finished-at="2022-04-12T20:50:19 IST" duration-ms="2691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webtables1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testingbaba_test.Webtables_test@618b19ad]" started-at="2022-04-12T20:50:19 IST" name="teardown" finished-at="2022-04-12T20:50:20 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testingbaba_test.Webtables_test -->
+    </test> <!-- Webtables page -->
+  </suite> <!-- testingbaba -->
+</testng-results>

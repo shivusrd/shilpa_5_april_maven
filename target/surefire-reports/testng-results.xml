@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-14T09:54:35 IST" name="testingbaba" finished-at="2022-04-14T09:55:18 IST" duration-ms="42928">
+    <groups>
+    </groups>
+    <test started-at="2022-04-14T09:54:35 IST" name="login page" finished-at="2022-04-14T09:54:44 IST" duration-ms="8321">
+      <class name="testingbaba_test.Login_test">
+        <test-method is-config="true" signature="getlaunchurl()[pri:0, instance:testingbaba_test.Login_test@7671cb68]" started-at="2022-04-14T09:54:35 IST" name="getlaunchurl" finished-at="2022-04-14T09:54:43 IST" duration-ms="7653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunchurl -->
+        <test-method signature="gettitle()[pri:0, instance:testingbaba_test.Login_test@7671cb68]" started-at="2022-04-14T09:54:43 IST" name="gettitle" finished-at="2022-04-14T09:54:43 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testingbaba_test.Login_test@7671cb68]" started-at="2022-04-14T09:54:43 IST" name="teardown" finished-at="2022-04-14T09:54:44 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testingbaba_test.Login_test -->
+    </test> <!-- login page -->
+    <test started-at="2022-04-14T09:54:44 IST" name="Textbox page" finished-at="2022-04-14T09:54:54 IST" duration-ms="10495">
+      <class name="testingbaba_test.Textbox_test">
+        <test-method is-config="true" signature="getlaunchurl()[pri:0, instance:testingbaba_test.Textbox_test@15bbf42f]" started-at="2022-04-14T09:54:44 IST" name="getlaunchurl" finished-at="2022-04-14T09:54:51 IST" duration-ms="7140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunchurl -->
+        <test-method signature="textbox_test()[pri:0, instance:testingbaba_test.Textbox_test@15bbf42f]" started-at="2022-04-14T09:54:51 IST" name="textbox_test" finished-at="2022-04-14T09:54:51 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textbox_test -->
+        <test-method signature="textbox_test2()[pri:0, instance:testingbaba_test.Textbox_test@15bbf42f]" started-at="2022-04-14T09:54:51 IST" name="textbox_test2" finished-at="2022-04-14T09:54:54 IST" duration-ms="2643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textbox_test2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testingbaba_test.Textbox_test@15bbf42f]" started-at="2022-04-14T09:54:54 IST" name="teardown" finished-at="2022-04-14T09:54:54 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testingbaba_test.Textbox_test -->
+    </test> <!-- Textbox page -->
+    <test started-at="2022-04-14T09:54:54 IST" name="Checkbox page" finished-at="2022-04-14T09:55:02 IST" duration-ms="7601">
+      <class name="testingbaba_test.Checkbox_test">
+        <test-method is-config="true" signature="getlaunchurl()[pri:0, instance:testingbaba_test.Checkbox_test@932bc4a]" started-at="2022-04-14T09:54:54 IST" name="getlaunchurl" finished-at="2022-04-14T09:55:01 IST" duration-ms="6877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunchurl -->
+        <test-method signature="checkbox_test()[pri:0, instance:testingbaba_test.Checkbox_test@932bc4a]" started-at="2022-04-14T09:55:01 IST" name="checkbox_test" finished-at="2022-04-14T09:55:01 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox_test -->
+        <test-method signature="checkbox_test2()[pri:0, instance:testingbaba_test.Checkbox_test@932bc4a]" started-at="2022-04-14T09:55:01 IST" name="checkbox_test2" finished-at="2022-04-14T09:55:01 IST" duration-ms="29" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=100.0.4896.88)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-493EAAE', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f8a76f987aa6c8044b1c030f7168ec3f, clickElement {id=b15714d6-5486-4fe2-9424-a9ae13e6d22c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:55966}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55966/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f8a76f987aa6c8044b1c030f7168ec3f)] -> xpath: //a[normalize-space()='check box']]
+Session ID: f8a76f987aa6c8044b1c030f7168ec3f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.88)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-493EAAE', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f8a76f987aa6c8044b1c030f7168ec3f, clickElement {id=b15714d6-5486-4fe2-9424-a9ae13e6d22c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:55966}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55966/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f8a76f987aa6c8044b1c030f7168ec3f)] -> xpath: //a[normalize-space()='check box']]
+Session ID: f8a76f987aa6c8044b1c030f7168ec3f
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at testingbaba_pages.Checkbox_page.checkbox(Checkbox_page.java:50)
+at testingbaba_test.Checkbox_test.checkbox_test2(Checkbox_test.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox_test2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testingbaba_test.Checkbox_test@932bc4a]" started-at="2022-04-14T09:55:01 IST" name="teardown" finished-at="2022-04-14T09:55:02 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testingbaba_test.Checkbox_test -->
+    </test> <!-- Checkbox page -->
+    <test started-at="2022-04-14T09:55:02 IST" name="Radiobutton page" finished-at="2022-04-14T09:55:08 IST" duration-ms="6593">
+      <class name="testingbaba_test.Radiobutton_test">
+        <test-method is-config="true" signature="getlaunch()[pri:0, instance:testingbaba_test.Radiobutton_test@793be5ca]" started-at="2022-04-14T09:55:02 IST" name="getlaunch" finished-at="2022-04-14T09:55:08 IST" duration-ms="5892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunch -->
+        <test-method signature="radiobutton()[pri:0, instance:testingbaba_test.Radiobutton_test@793be5ca]" started-at="2022-04-14T09:55:08 IST" name="radiobutton" finished-at="2022-04-14T09:55:08 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiobutton -->
+        <test-method signature="radiobutton1()[pri:1, instance:testingbaba_test.Radiobutton_test@793be5ca]" started-at="2022-04-14T09:55:08 IST" name="radiobutton1" finished-at="2022-04-14T09:55:08 IST" duration-ms="25" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=100.0.4896.88)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-493EAAE', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a9721e563ef62b44383f4dee1c631bd, clickElement {id=d31bc393-0463-4bf2-8da0-7dc0d4024fb9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:56000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56000/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5a9721e563ef62b44383f4dee1c631bd)] -> xpath: //a[contains(text(),'radio buttons')]]
+Session ID: 5a9721e563ef62b44383f4dee1c631bd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.88)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-493EAAE', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a9721e563ef62b44383f4dee1c631bd, clickElement {id=d31bc393-0463-4bf2-8da0-7dc0d4024fb9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:56000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56000/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5a9721e563ef62b44383f4dee1c631bd)] -> xpath: //a[contains(text(),'radio buttons')]]
+Session ID: 5a9721e563ef62b44383f4dee1c631bd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at testingbaba_pages.Radiobutton_page.radio(Radiobutton_page.java:36)
+at testingbaba_test.Radiobutton_test.radiobutton1(Radiobutton_test.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiobutton1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testingbaba_test.Radiobutton_test@793be5ca]" started-at="2022-04-14T09:55:08 IST" name="teardown" finished-at="2022-04-14T09:55:08 IST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testingbaba_test.Radiobutton_test -->
+    </test> <!-- Radiobutton page -->
+    <test started-at="2022-04-14T09:55:09 IST" name="Webtables page" finished-at="2022-04-14T09:55:18 IST" duration-ms="9817">
+      <class name="testingbaba_test.Webtables_test">
+        <test-method is-config="true" signature="getlaunch()[pri:0, instance:testingbaba_test.Webtables_test@49c7b90e]" started-at="2022-04-14T09:55:09 IST" name="getlaunch" finished-at="2022-04-14T09:55:15 IST" duration-ms="6859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlaunch -->
+        <test-method signature="webtables()[pri:0, instance:testingbaba_test.Webtables_test@49c7b90e]" started-at="2022-04-14T09:55:15 IST" name="webtables" finished-at="2022-04-14T09:55:15 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webtables -->
+        <test-method signature="webtables1()[pri:0, instance:testingbaba_test.Webtables_test@49c7b90e]" started-at="2022-04-14T09:55:15 IST" name="webtables1" finished-at="2022-04-14T09:55:18 IST" duration-ms="2277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webtables1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testingbaba_test.Webtables_test@49c7b90e]" started-at="2022-04-14T09:55:18 IST" name="teardown" finished-at="2022-04-14T09:55:18 IST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testingbaba_test.Webtables_test -->
+    </test> <!-- Webtables page -->
+  </suite> <!-- testingbaba -->
+</testng-results>
